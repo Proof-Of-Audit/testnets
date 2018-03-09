@@ -5,11 +5,11 @@
   [
     {
       "pub_key": {
-        "data": "4E97339F0442920A581FD9B352DF8457B90E46B126B23D751C3DDFB2416C51DF",
+        "data": "22ED41AE54182E96DB814A596D63A5E394E27AB393802C0BE6EB665844ABDA74",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"adrian1"
+      "name":"kristi"
     }
   ],
   "app_hash":"",
@@ -25,6 +25,20 @@
           },
           {
             "denom": "zakicoin",
+            "amount": 100000
+          }
+        ]
+      },
+            {
+        "name": "kristi",
+        "address": "D731535FC82B8BC07FE45C0549EF314AD1D1DF2C",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
+            "denom": "kristicoin",
             "amount": 100000
           }
         ]
