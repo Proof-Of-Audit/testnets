@@ -10,7 +10,15 @@
       },
       "power":1000,
       "name":"kristi"
-    }
+    },
+    {
+      "pub_key": {
+        "data": "01B884B5B0F30D90E2F4E1E2A406027AF1E636087079C54C1D6018357C8F5D3A",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"zaki"
+    }    
   ],
   "app_hash":"",
   "app_options": {
