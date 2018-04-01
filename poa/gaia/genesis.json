@@ -1,72 +1,43 @@
 {
 	"genesis_time": "2018-03-20T12:00:00Z",
-	"chain_id": "gaia-3005",
+	"chain_id": "poa",
 	"validators": [
 		{
 			"pub_key": {
-				"data": "84BCA079E9A770DBC788AB50982D9A81877428AD417C2EC20BFD74F8BA689198",
+				"data": "7F5652A4C6240E5A9CC6772B355B45EECABD4C9E0C7FDE4D4E6DDD1543A36E3F",
 				"type": "ed25519"
 			},
 			"power": 1000,
-			"name": "gaia-3005-a.mycosmosvalidator.com"
+			"name": "template1"
 		},
 		{
 			"pub_key": {
-				"data": "0C9DAD2D69A1EC5FFB34E5F7BB09C8D579907E4CE99C0D751BA093A8C39F1C68",
+				"data": "3FE21F2EF865DDC328272AC36CE0DC997DA51C601209BAC4D21CD3BCDDD6D5A9",
 				"type": "ed25519"
 			},
 			"power": 1000,
-			"name": "gaia-3005-b.mycosmosvalidator.com"
+			"name": "template2"
 		},
 		{
 			"pub_key": {
-				"data": "894D3530BE820302DD94FF261863D7038A892EF39D8FD039D09D23632E4B7FC6",
+				"data": "3BFE98035CABE87D56098569CAE3F53E2539CDCB2DE7036D759573FE47BBE874",
 				"type": "ed25519"
 			},
 			"power": 1000,
-			"name": "gaia-3005-c.mycosmosvalidator.com"
+			"name": "template3"
 		},
-          {
-            "pub_key": {
-              "data": "E906AF1570F1AF94FE7E806488B02DCDF6F2EE6F2DF45B77EFC0D59CB5B7E645",
-              "type": "ed25519"
-            },
-            "power": 1000,
-            "name": "gaia-3005.cosmos.mythos.services"
-          }
-        ],
+		{
+			"pub_key": {
+				"data": "9224FBA9E48495F2D83DCD42E96CBD4EF708DE66FA30B7B10C932C36944C4730",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "template4"
+		}
+	],
 	"app_hash": "",
 	"app_options": {
-		"accounts": [
-			{
-				"name": "mycosmosvalidator",
-				"address": "B0B12BFB8886A8584AEE5645BDEE3316F3B6DDD9",
-				"coins": [{
-						"denom": "fermion",
-						"amount": 100000000
-					},
-					{
-						"denom": "kriscoin",
-						"amount": 100000
-					}
-				]
-			},
-                  {
-                    "name": "pbostrom",
-                    "address": "39EE01E7BE20EBC7A8FB7F2DA842329E26C31169",
-                    "coins": [
-                      {
-                        "denom": "fermion",
-                        "amount": 100000000
-                      }
-                    ]
-                  }
-                ],
-		"plugin_options": [
-			"coin/issuer", {
-				"app": "sigs",
-				"addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"
-			}
-		]
+		"accounts": [],
+		"plugin_options": []
 	}
 }
